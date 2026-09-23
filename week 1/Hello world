@@ -1,0 +1,18 @@
+//java.util.Scanner;
+
+public class MultiplyByTwo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        double number = input.nextDouble();
+
+        double result = number * 2;
+
+        System.out.println("The result is: " + result);
+
+        input.close();
+    }
+}
+
+
